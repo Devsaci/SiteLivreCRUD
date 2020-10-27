@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hello
-</body>
-</html>
+<?php ob_start() ?>
+ici le contenu de la page d'accueil
+
+<?php
+$titre = "Bibliothèque MGA";
+$content = ob_get_clean();
+require "template.php";
+?>

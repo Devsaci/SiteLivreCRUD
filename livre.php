@@ -5,7 +5,7 @@ $l1 = new Livre(1,"Algorithmique selon H2PROG",300,"algo.png");
 $l2 = new Livre(2,"Le virus Asiatique",200,"virus.png");
 $l3 = new Livre(3,"La France du 19ème",100,"france.png");
 $l4 = new Livre(4,"Le JavaScript Client",500,"JS.png");
-$livres = [$l1,$l2,$l3,$l4];
+
 ob_start() 
 ?>
 

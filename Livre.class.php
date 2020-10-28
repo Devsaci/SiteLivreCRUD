@@ -1,9 +1,12 @@
 <?php
+/* Classe Livre */
 class Livre{
     private $id;
     private $titre;
     private $nbPages;
     private $image;
+//Variable static
+    public static $livres;
 /* 
 
 Construvteur Classe Livre
@@ -13,6 +16,7 @@ Construvteur Classe Livre
         $this->titre = $titre;
         $this->nbPages = $nbPages;
         $this->image = $image;
+        self::$livres[] = $this;
     }
 /* 
 
@@ -30,3 +34,4 @@ Getter  Setter
     public function getImage(){return $this->image;}
     public function setImage($image){$this->image = $image;}
 }
+?>

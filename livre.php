@@ -1,5 +1,10 @@
 
-<?php ob_start() ?>
+<?php 
+require_once "Livre.class.php";
+
+
+ob_start() 
+?>
 
 
 ici le contenu de ma page listant les livres

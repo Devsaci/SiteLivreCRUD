@@ -5,8 +5,7 @@ class Livre{
     private $titre;
     private $nbPages;
     private $image;
-//Variable static
-    public static $livres;
+
 /* 
 
 Construvteur Classe Livre
@@ -16,7 +15,7 @@ Construvteur Classe Livre
         $this->titre = $titre;
         $this->nbPages = $nbPages;
         $this->image = $image;
-        self::$livres[] = $this;
+      
     }
 /* 
 
